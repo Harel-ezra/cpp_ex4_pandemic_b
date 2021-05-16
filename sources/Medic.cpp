@@ -11,6 +11,7 @@ Medic& Medic::drive(City c)
         {
             board[c]=0;
         }
+        return *this;
     }
     catch (...)
     {
@@ -25,6 +26,7 @@ Medic& Medic::fly_direct (City c)
         {
             board[c]=0;
         }
+        return *this;
     }
     catch (...)
     {
@@ -39,6 +41,7 @@ Medic& Medic::fly_charter(City c)
         {
             board[c]=0;
         }
+        return *this;
     }
     catch (...)
     {
@@ -53,6 +56,7 @@ Medic& Medic::fly_shuttle(City c)
         {
             board[c]=0;
         }
+        return *this;
     }
     catch (...)
     {

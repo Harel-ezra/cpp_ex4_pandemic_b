@@ -12,5 +12,11 @@ namespace pandemic
 
         ~GeneSplicer()
         {}
+
+        GeneSplicer& discover_cure(Color c) override;
+        std::string role() override
+        {
+            return "GeneSplicer";
+        }
     };
 }

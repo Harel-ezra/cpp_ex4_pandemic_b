@@ -13,6 +13,9 @@ namespace pandemic
         ~Researcher()
         {}
         Researcher& discover_cure(Color c) override;
-
+        std::string role() override
+        {
+            return "Researcher";
+        }
     };
 }

@@ -12,7 +12,11 @@ namespace pandemic
 
         ~FieldDoctor()
         {}
-
+         FieldDoctor& treat(City c) override;
+        std::string role() override
+        {
+            return "FieldDoctor";
+        }
 
     };
 }

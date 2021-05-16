@@ -12,7 +12,10 @@ namespace pandemic
         ~OperationsExpert()
         {}
         OperationsExpert& build() override;
-
+        std::string role() override
+        {
+            return "OperationsExpert";
+        }
 
     };
 }

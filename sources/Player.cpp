@@ -52,7 +52,11 @@ Player& Player::fly_shuttle(City c)
 }
 Player& Player::build()
 {
-    if(!board.have_research_station(this->city) && player_cards.find(this->city)!=player_cards.end())
+    if(player_cards.find(this->city)==player_cards.end())
+    {
+        throw ("cant build a new research_station, no have fit card");
+    }
+    if(!board.have_research_station(this->city) )
     {
         board.build_research_station(this->city);
         player_cards.erase(this->city);
@@ -95,7 +99,11 @@ Player& Player::discover_cure(Color c)
     {
         throw ("cant discover cure, no have research station in the city");
     }
-    if(!board.have_cure(c) && sum_color_cards(c)>=5)
+    if(sum_color_cards(c)<5)
+    {
+        throw ("cant discover cure, no enough cards");
+    }
+    if(!board.have_cure(c))
     {
         remove_5_color_card(c);
         board.discover_cure(c);

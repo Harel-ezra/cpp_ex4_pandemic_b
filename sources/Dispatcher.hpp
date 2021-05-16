@@ -13,6 +13,9 @@ namespace pandemic
         ~Dispatcher()
         {}
         Dispatcher& fly_direct (City c) override;
-
+        std::string role() override
+        {
+            return "Dispatcher";
+        }
     };
 }

@@ -14,7 +14,10 @@ namespace pandemic
         {}
 
         Virologist& treat(City c) override;
-
+        std::string role() override
+        {
+            return "Virologist";
+        }
 
     };
 }

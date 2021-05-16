@@ -18,6 +18,9 @@ namespace pandemic
         Medic& fly_charter(City c)override;
         Medic& fly_shuttle(City c)override;
         Medic& treat(City c)override;
-
+        std::string role() override
+        {
+            return "Medic";
+        }
     };
 }
