@@ -43,6 +43,7 @@ Player& Player::fly_charter(City c)
 }
 Player& Player::fly_shuttle(City c)
 {
+    same_city_exaeption(this->city,c);
     if(!board.have_research_station(this->city) || !board.have_research_station(c) )
     {
         throw ("cant drive to this city, no have research_station in both, src and dest");
@@ -78,7 +79,9 @@ int Player::sum_color_cards(Color c)
 void Player::remove_5_color_card(Color c)
 {
     int sum=0;
-    for (City city: player_cards)
+    set<City> tempset=player_cards;
+    for (City city: tempset)
+    //for(set<City>::iterator it=player_cards.begin();it!=player_cards.end();it++)
     {
         if(board.color_of_city(city)==c)
         {

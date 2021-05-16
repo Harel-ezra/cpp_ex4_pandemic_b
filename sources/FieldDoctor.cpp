@@ -4,7 +4,7 @@ using namespace pandemic;
 
 FieldDoctor& FieldDoctor::treat(City c)
 {
-    if(this->city!=c && board.has_neighbors(this->city,c))
+    if(this->city!=c && !board.has_neighbors(this->city,c))
     {
         throw ("cant treat cure, too far..");
     }

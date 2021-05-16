@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pandemic_b.dir/main.cpp.o"
+  "CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o"
+  "CMakeFiles/pandemic_b.dir/TestRunner.cpp.o"
   "CMakeFiles/pandemic_b.dir/sources/Board.cpp.o"
   "CMakeFiles/pandemic_b.dir/sources/City.cpp.o"
   "CMakeFiles/pandemic_b.dir/sources/Color.cpp.o"

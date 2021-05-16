@@ -17,7 +17,7 @@ namespace pandemic
 
 
     protected:
-        Board board;
+        Board &board;
         City city;
         std::set<City> player_cards;
 
@@ -28,11 +28,8 @@ namespace pandemic
         void remove_5_color_card(Color c);
 
     public:
-        Player(Board b, City c)
-        {
-            this->board=b;
-            this->city=c;
-        }
+        Player(Board &b, City c):board(b), city(c)
+        {}
 
         ~Player()
         {}

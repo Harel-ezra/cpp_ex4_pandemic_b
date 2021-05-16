@@ -8,10 +8,15 @@ Scientist& Scientist::discover_cure(Color c)
     {
         throw ("cant discover cure, no have research station in the city");
     }
-    if(!board.have_cure(c) && sum_color_cards(c)>=number_cars_for_discover_cure)
+    if(sum_color_cards(c)<number_cars_for_discover_cure)
+    {
+        throw ("cant discover cure, no enough cards");
+    }
+    if(!board.have_cure(c))
     {
         int sum=0;
-        for (City city: player_cards)
+        set<City> tempset=player_cards;
+        for (City city: tempset)
         {
             if(board.color_of_city(city)==c)
             {

@@ -76,22 +76,35 @@ include CMakeFiles/pandemic_b.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pandemic_b.dir/flags.make
 
-CMakeFiles/pandemic_b.dir/main.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
-CMakeFiles/pandemic_b.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pandemic_b.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/main.cpp.o -c /home/harel/Public/c++/pandemic-b/main.cpp
+CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
+CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o: ../StudentTest3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o -c /home/harel/Public/c++/pandemic-b/StudentTest3.cpp
 
-CMakeFiles/pandemic_b.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pandemic_b.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harel/Public/c++/pandemic-b/main.cpp > CMakeFiles/pandemic_b.dir/main.cpp.i
+CMakeFiles/pandemic_b.dir/StudentTest3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pandemic_b.dir/StudentTest3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harel/Public/c++/pandemic-b/StudentTest3.cpp > CMakeFiles/pandemic_b.dir/StudentTest3.cpp.i
 
-CMakeFiles/pandemic_b.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pandemic_b.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harel/Public/c++/pandemic-b/main.cpp -o CMakeFiles/pandemic_b.dir/main.cpp.s
+CMakeFiles/pandemic_b.dir/StudentTest3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pandemic_b.dir/StudentTest3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harel/Public/c++/pandemic-b/StudentTest3.cpp -o CMakeFiles/pandemic_b.dir/StudentTest3.cpp.s
+
+CMakeFiles/pandemic_b.dir/TestRunner.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
+CMakeFiles/pandemic_b.dir/TestRunner.cpp.o: ../TestRunner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pandemic_b.dir/TestRunner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/TestRunner.cpp.o -c /home/harel/Public/c++/pandemic-b/TestRunner.cpp
+
+CMakeFiles/pandemic_b.dir/TestRunner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pandemic_b.dir/TestRunner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/harel/Public/c++/pandemic-b/TestRunner.cpp > CMakeFiles/pandemic_b.dir/TestRunner.cpp.i
+
+CMakeFiles/pandemic_b.dir/TestRunner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pandemic_b.dir/TestRunner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/harel/Public/c++/pandemic-b/TestRunner.cpp -o CMakeFiles/pandemic_b.dir/TestRunner.cpp.s
 
 CMakeFiles/pandemic_b.dir/sources/Board.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Board.cpp.o: ../sources/Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Board.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Board.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Board.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Board.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Board.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/pandemic_b.dir/sources/Board.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/City.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/City.cpp.o: ../sources/City.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pandemic_b.dir/sources/City.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pandemic_b.dir/sources/City.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/City.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/City.cpp
 
 CMakeFiles/pandemic_b.dir/sources/City.cpp.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/pandemic_b.dir/sources/City.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/Color.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Color.cpp.o: ../sources/Color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Color.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Color.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Color.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Color.cpp.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/pandemic_b.dir/sources/Color.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/Player.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Player.cpp.o: ../sources/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Player.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Player.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Player.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Player.cpp.i: cmake_force
@@ -143,7 +156,7 @@ CMakeFiles/pandemic_b.dir/sources/Player.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/Dispatcher.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Dispatcher.cpp.o: ../sources/Dispatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Dispatcher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Dispatcher.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Dispatcher.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Dispatcher.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Dispatcher.cpp.i: cmake_force
@@ -156,7 +169,7 @@ CMakeFiles/pandemic_b.dir/sources/Dispatcher.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/FieldDoctor.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/FieldDoctor.cpp.o: ../sources/FieldDoctor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/pandemic_b.dir/sources/FieldDoctor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pandemic_b.dir/sources/FieldDoctor.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/FieldDoctor.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/FieldDoctor.cpp
 
 CMakeFiles/pandemic_b.dir/sources/FieldDoctor.cpp.i: cmake_force
@@ -169,7 +182,7 @@ CMakeFiles/pandemic_b.dir/sources/FieldDoctor.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/GeneSplicer.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/GeneSplicer.cpp.o: ../sources/GeneSplicer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/pandemic_b.dir/sources/GeneSplicer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pandemic_b.dir/sources/GeneSplicer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/GeneSplicer.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/GeneSplicer.cpp
 
 CMakeFiles/pandemic_b.dir/sources/GeneSplicer.cpp.i: cmake_force
@@ -182,7 +195,7 @@ CMakeFiles/pandemic_b.dir/sources/GeneSplicer.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/Medic.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Medic.cpp.o: ../sources/Medic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Medic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Medic.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Medic.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Medic.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Medic.cpp.i: cmake_force
@@ -195,7 +208,7 @@ CMakeFiles/pandemic_b.dir/sources/Medic.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/OperationsExpert.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/OperationsExpert.cpp.o: ../sources/OperationsExpert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pandemic_b.dir/sources/OperationsExpert.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pandemic_b.dir/sources/OperationsExpert.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/OperationsExpert.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/OperationsExpert.cpp
 
 CMakeFiles/pandemic_b.dir/sources/OperationsExpert.cpp.i: cmake_force
@@ -208,7 +221,7 @@ CMakeFiles/pandemic_b.dir/sources/OperationsExpert.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/Researcher.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Researcher.cpp.o: ../sources/Researcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Researcher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Researcher.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Researcher.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Researcher.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Researcher.cpp.i: cmake_force
@@ -221,7 +234,7 @@ CMakeFiles/pandemic_b.dir/sources/Researcher.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.o: ../sources/Scientist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Scientist.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.i: cmake_force
@@ -234,7 +247,7 @@ CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.s: cmake_force
 
 CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.o: CMakeFiles/pandemic_b.dir/flags.make
 CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.o: ../sources/Virologist.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.o -c /home/harel/Public/c++/pandemic-b/sources/Virologist.cpp
 
 CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.i: cmake_force
@@ -247,7 +260,8 @@ CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.s: cmake_force
 
 # Object files for target pandemic_b
 pandemic_b_OBJECTS = \
-"CMakeFiles/pandemic_b.dir/main.cpp.o" \
+"CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o" \
+"CMakeFiles/pandemic_b.dir/TestRunner.cpp.o" \
 "CMakeFiles/pandemic_b.dir/sources/Board.cpp.o" \
 "CMakeFiles/pandemic_b.dir/sources/City.cpp.o" \
 "CMakeFiles/pandemic_b.dir/sources/Color.cpp.o" \
@@ -264,7 +278,8 @@ pandemic_b_OBJECTS = \
 # External object files for target pandemic_b
 pandemic_b_EXTERNAL_OBJECTS =
 
-pandemic_b: CMakeFiles/pandemic_b.dir/main.cpp.o
+pandemic_b: CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o
+pandemic_b: CMakeFiles/pandemic_b.dir/TestRunner.cpp.o
 pandemic_b: CMakeFiles/pandemic_b.dir/sources/Board.cpp.o
 pandemic_b: CMakeFiles/pandemic_b.dir/sources/City.cpp.o
 pandemic_b: CMakeFiles/pandemic_b.dir/sources/Color.cpp.o
@@ -279,7 +294,7 @@ pandemic_b: CMakeFiles/pandemic_b.dir/sources/Scientist.cpp.o
 pandemic_b: CMakeFiles/pandemic_b.dir/sources/Virologist.cpp.o
 pandemic_b: CMakeFiles/pandemic_b.dir/build.make
 pandemic_b: CMakeFiles/pandemic_b.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable pandemic_b"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable pandemic_b"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pandemic_b.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

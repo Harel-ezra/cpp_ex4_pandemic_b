@@ -7,7 +7,7 @@ namespace pandemic
     class Dispatcher : public Player
     {
     public:
-        Dispatcher(Board b, City c): Player(b,c)
+        Dispatcher(Board &b, City c): Player(b,c)
         {}
 
         ~Dispatcher()

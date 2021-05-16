@@ -9,7 +9,7 @@ namespace pandemic
     private:
         int number_cars_for_discover_cure;
     public:
-        Scientist(Board b, City c, int number): Player(b,c), number_cars_for_discover_cure(number)
+        Scientist(Board &b, City c, int number): Player(b,c), number_cars_for_discover_cure(number)
         {}
 
         ~Scientist()

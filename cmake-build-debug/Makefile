@@ -142,32 +142,59 @@ pandemic_b/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/build
 .PHONY : pandemic_b/fast
 
-main.o: main.cpp.o
+StudentTest3.o: StudentTest3.cpp.o
 
-.PHONY : main.o
+.PHONY : StudentTest3.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/main.cpp.o
-.PHONY : main.cpp.o
+StudentTest3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o
+.PHONY : StudentTest3.cpp.o
 
-main.i: main.cpp.i
+StudentTest3.i: StudentTest3.cpp.i
 
-.PHONY : main.i
+.PHONY : StudentTest3.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/main.cpp.i
-.PHONY : main.cpp.i
+StudentTest3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/StudentTest3.cpp.i
+.PHONY : StudentTest3.cpp.i
 
-main.s: main.cpp.s
+StudentTest3.s: StudentTest3.cpp.s
 
-.PHONY : main.s
+.PHONY : StudentTest3.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/main.cpp.s
-.PHONY : main.cpp.s
+StudentTest3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/StudentTest3.cpp.s
+.PHONY : StudentTest3.cpp.s
+
+TestRunner.o: TestRunner.cpp.o
+
+.PHONY : TestRunner.o
+
+# target to build an object file
+TestRunner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/TestRunner.cpp.o
+.PHONY : TestRunner.cpp.o
+
+TestRunner.i: TestRunner.cpp.i
+
+.PHONY : TestRunner.i
+
+# target to preprocess a source file
+TestRunner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/TestRunner.cpp.i
+.PHONY : TestRunner.cpp.i
+
+TestRunner.s: TestRunner.cpp.s
+
+.PHONY : TestRunner.s
+
+# target to generate assembly for a file
+TestRunner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pandemic_b.dir/build.make CMakeFiles/pandemic_b.dir/TestRunner.cpp.s
+.PHONY : TestRunner.cpp.s
 
 sources/Board.o: sources/Board.cpp.o
 
@@ -502,9 +529,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... pandemic_b"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... StudentTest3.o"
+	@echo "... StudentTest3.i"
+	@echo "... StudentTest3.s"
+	@echo "... TestRunner.o"
+	@echo "... TestRunner.i"
+	@echo "... TestRunner.s"
 	@echo "... sources/Board.o"
 	@echo "... sources/Board.i"
 	@echo "... sources/Board.s"

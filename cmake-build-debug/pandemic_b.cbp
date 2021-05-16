@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/harel/Public/c++/pandemic-b/main.cpp">
+		<Unit filename="/home/harel/Public/c++/pandemic-b/StudentTest3.cpp">
+			<Option target="pandemic_b"/>
+		</Unit>
+		<Unit filename="/home/harel/Public/c++/pandemic-b/TestRunner.cpp">
+			<Option target="pandemic_b"/>
+		</Unit>
+		<Unit filename="/home/harel/Public/c++/pandemic-b/doctest.h">
 			<Option target="pandemic_b"/>
 		</Unit>
 		<Unit filename="/home/harel/Public/c++/pandemic-b/sources/Board.cpp">

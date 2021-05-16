@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/harel/Public/c++/pandemic-b/main.cpp" "/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles/pandemic_b.dir/main.cpp.o"
+  "/home/harel/Public/c++/pandemic-b/StudentTest3.cpp" "/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles/pandemic_b.dir/StudentTest3.cpp.o"
+  "/home/harel/Public/c++/pandemic-b/TestRunner.cpp" "/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles/pandemic_b.dir/TestRunner.cpp.o"
   "/home/harel/Public/c++/pandemic-b/sources/Board.cpp" "/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles/pandemic_b.dir/sources/Board.cpp.o"
   "/home/harel/Public/c++/pandemic-b/sources/City.cpp" "/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles/pandemic_b.dir/sources/City.cpp.o"
   "/home/harel/Public/c++/pandemic-b/sources/Color.cpp" "/home/harel/Public/c++/pandemic-b/cmake-build-debug/CMakeFiles/pandemic_b.dir/sources/Color.cpp.o"
