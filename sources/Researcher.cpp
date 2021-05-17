@@ -2,9 +2,11 @@
 using namespace std;
 using namespace pandemic;
 
+const int five=5; // const number declere on 5
+
 Researcher& Researcher::discover_cure(Color c)
 {
-    if(sum_color_cards(c)<5)
+    if(sum_color_cards(c)<five)
     {
         throw ("cant discover cure, no enough cards");
     }

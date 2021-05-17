@@ -4,6 +4,11 @@ using namespace pandemic;
 
 Virologist& Virologist::treat(City c)
 {
+    if(c==this->city)
+    {
+        Player::treat(c);
+        return *this;
+    }
     if(0==board.disease_level(c))
     {
         throw ("cant treat cure, no cure in the city");

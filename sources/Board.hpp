@@ -44,7 +44,7 @@ namespace pandemic {
         ~Board() {}
 
         int& operator[](City c);
-        const int operator[](City c)const;
+        //const int operator[](City c)const;
         //void operator=(int dis);
 
         bool is_clean() const;
@@ -52,11 +52,11 @@ namespace pandemic {
         void remove_stations();
         //void move_player(Player p,City src,City dest);
         Color color_of_city(City c);
-        bool has_neighbors(City src, City dest);
-        bool have_research_station(City c);
+        bool has_neighbors(City src, City dest) const;
+        bool have_research_station(City c) const;
         void build_research_station(City c);
         void discover_cure(Color c);
-        bool have_cure(Color c);
+        bool have_cure(Color c) const;
         int disease_level(City c); //return the disease_level of the city
         friend std::ostream &operator<<(std::ostream &output, const Board &board);
     };

@@ -7,24 +7,18 @@
 using namespace std;
 using namespace pandemic;
 
-int& Board::operator[](const City c) {
-    int &a=board_game.find(c)->second.disease_level;
-    return a;
-}
-
-const int Board::operator[](City c) const
-{
+int& Board::operator[](City c) {
     return board_game.find(c)->second.disease_level;
+    //return a;
 }
 
-
-//void Board::operator=(int dis) {
-//    return;
+//const int Board::operator[](City c) const
+//{
+//    return board_game.find(c)->second.disease_level;
 //}
 
-
 bool Board::is_clean() const {
-    for(pair<City,city_info> city:board_game)
+    for(pair<City,city_info> const &city:board_game)
     {
         if(city.second.disease_level != 0)
         {
@@ -60,7 +54,7 @@ Color Board::color_of_city(City c)
 {
     return board_game.find(c)->second.color;
 }
-bool Board::has_neighbors(City src, City dest)
+bool Board::has_neighbors(City src, City dest) const
 {
     if(board_game.find(src)->second.neighbors.find(dest)==board_game.find(src)->second.neighbors.end())
     {
@@ -68,7 +62,7 @@ bool Board::has_neighbors(City src, City dest)
     }
     return true;
 }
-bool Board::have_research_station(City c)
+bool Board::have_research_station(City c) const
 {
     return board_game.find(c)->second.research_station;
 }
@@ -94,7 +88,7 @@ void Board::discover_cure(Color c)
     }
 }
 
-bool Board::have_cure(Color c)
+bool Board::have_cure(Color c) const
 {
     switch (c) {
         case Color::Yellow:
@@ -130,6 +124,7 @@ void Board::init()
 //    {
 //
 //    }
+
     board_game = {
             {City::Algiers,(city_info){City::Algiers,Color::Black,set<City>{City::Madrid, City::Paris, City::Istanbul, City::Cairo},0,false}},
             {City::Atlanta,(city_info){City::Atlanta,Color::Blue,set<City>{City::Chicago, City::Miami, City::Washington},0,false}},

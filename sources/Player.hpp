@@ -21,7 +21,7 @@ namespace pandemic
         City city;
         std::set<City> player_cards;
 
-        void same_city_exaeption(City c1, City c2);
+        static void same_city_exaeption(City c1, City c2);
 
         int sum_color_cards(Color c);
 

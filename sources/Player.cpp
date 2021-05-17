@@ -76,6 +76,8 @@ int Player::sum_color_cards(Color c)
     }
     return sum;
 }
+
+const int five=5; // const number declere on 5
 void Player::remove_5_color_card(Color c)
 {
     int sum=0;
@@ -88,7 +90,7 @@ void Player::remove_5_color_card(Color c)
             player_cards.erase(city);
             sum++;
         }
-        if(5==sum)
+        if(five==sum)
         {
             return;
         }
@@ -102,7 +104,7 @@ Player& Player::discover_cure(Color c)
     {
         throw ("cant discover cure, no have research station in the city");
     }
-    if(sum_color_cards(c)<5)
+    if(sum_color_cards(c)<five)
     {
         throw ("cant discover cure, no enough cards");
     }
