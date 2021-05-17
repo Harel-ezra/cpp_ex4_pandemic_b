@@ -101,18 +101,6 @@ std::ostream &pandemic::operator<<(std::ostream &output, const Board &board) {
 }
 void Board::init()
 {
-//    ifstream file("cities_map.txt");
-//    City city;
-//    Color color;
-//    std::set<City> neighbors;
-//    std::set<Player> player_in_city={};
-//    int d_l=0;
-//    bool r_s=false;
-//    while(file>>city>>color)
-//    {
-//
-//    }
-
     board_game = {
             {City::Algiers,(city_info){City::Algiers,Color::Black,set<City>{City::Madrid, City::Paris, City::Istanbul, City::Cairo},0,false}},
             {City::Atlanta,(city_info){City::Atlanta,Color::Blue,set<City>{City::Chicago, City::Miami, City::Washington},0,false}},
