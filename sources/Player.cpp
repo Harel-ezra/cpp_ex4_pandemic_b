@@ -2,10 +2,11 @@
 using namespace std;
 using namespace pandemic;
 
-void Player::same_city_exaeption(City c1, City c2)
-{
-    if(c1==c2)
+void Player::same_city_exaeption(City c1, City c2) {
+    if (c1 == c2)
+    {
         throw ("cant drive to this city, is there");
+    }
 }
 
 Player& Player::drive(City c)

@@ -9,7 +9,6 @@ using namespace pandemic;
 
 int& Board::operator[](City c) {
     return board_game.find(c)->second.disease_level;
-    //return a;
 }
 
 //const int Board::operator[](City c) const
@@ -18,7 +17,7 @@ int& Board::operator[](City c) {
 //}
 
 bool Board::is_clean() const {
-    for(pair<City,city_info> const &city:board_game)
+    for(const auto &city:board_game)
     {
         if(city.second.disease_level != 0)
         {
@@ -43,24 +42,13 @@ void Board::remove_stations()
     }
 }
 
-//void Board::move_player(const Player p, City src,City dest)
-//{
-//    board_game.find(src)->second.player_in_city.find(p);
-//    board_game.find(src)->second.player_in_city.erase(p);
-//    board_game.find(dest)->second.player_in_city.insert(p);
-//}
-//
 Color Board::color_of_city(City c)
 {
     return board_game.find(c)->second.color;
 }
 bool Board::has_neighbors(City src, City dest) const
 {
-    if(board_game.find(src)->second.neighbors.find(dest)==board_game.find(src)->second.neighbors.end())
-    {
-        return false;
-    }
-    return true;
+    return !(board_game.find(src)->second.neighbors.find(dest)==board_game.find(src)->second.neighbors.end());
 }
 bool Board::have_research_station(City c) const
 {
